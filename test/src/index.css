@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #655356;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test{
+    font-size: 2rem;
+    color: #fff;
+    font-family: initial;
+    line-height: 6.5rem;
+    text-align: center;
+    user-select: none
+}
