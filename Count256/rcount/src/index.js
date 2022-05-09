@@ -12,13 +12,13 @@ const Counter = () => {
         onClick={() => {
             setCount(count+=1);
         }}
-        ></div>
+        />
         <div className='number'>{count}</div>
-        <div className='chevron chevron-down' style={{visibility: count <= 0 && 'hidden'}}
+        {count > 0 &&<div className='chevron chevron-down'
         onClick={() =>{
             setCount(count-=1);
         }}
-        ></div>
+        />}
         </div>
     )
 } // 單純回傳值時，return可以省略
